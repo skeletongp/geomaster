@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pac-target-input {
+  @apply w-full outline-none py-1.5  focus:ring-0 focus:ring-offset-0 focus:ring-offset-white focus:ring-gray-300 focus:border-gray-300 ;; 
+}
